@@ -793,7 +793,7 @@ footer small {
 .count_additional {
   margin-top: 40px;
 }
-.count_additional h5{
+.count_additional h5,h2{
   margin-bottom: 40px;
 }
 .icon_plus{
@@ -833,4 +833,10 @@ footer small {
 }
 .count_call {
   margin-top: 45px;
+}
+.count_area{
+  margin: 30px 0;
+}
+.collapse_link {
+  color:inherit;
 }
