@@ -183,6 +183,9 @@ ul:before{
   font-size: 15px;;
   vertical-align: top;
 }
+.checkbox .popover{
+  color:#fab216;
+}
 
 button {
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1), 3px 0 3px 0px rgba(0, 0, 0, 0.1);
@@ -193,6 +196,7 @@ button {
 .glyphicon-menu-left{
   vertical-align: middle;
 }
+
 /*************INPUT PADDING FIX***************/
 
 .form-control::-webkit-input-placeholder {
@@ -212,6 +216,9 @@ button {
   padding-right: 0;
   padding-left: 0;
 }
+/********************CUSTOM SELECT********************/
+
+
 /********************CHECKBOX CODE*******************/
 .checkbox {
   padding-left: 20px;

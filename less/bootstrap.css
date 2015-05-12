@@ -1125,7 +1125,7 @@ img {
   padding: 4px;
   line-height: 1;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #fdb81e;
   border-radius: 0px;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -2292,7 +2292,7 @@ output {
 .form-control {
   display: block;
   width: 100%;
-  height: 30px;
+  height: 35px;
   padding: 6px 12px;
   font-size: 15px;
   line-height: 1;
@@ -2301,8 +2301,8 @@ output {
   background-image: none;
   border: 1px solid #cccccc;
   border-radius: 0px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: inset 0 5px 10px -8px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 5px 10px -8px rgba(0, 0, 0, 0.5);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -2314,14 +2314,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #777777;
+  color: rgba(0, 0, 0, 0.7);
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #777777;
+  color: rgba(0, 0, 0, 0.7);
 }
 .form-control::-webkit-input-placeholder {
-  color: #777777;
+  color: rgba(0, 0, 0, 0.7);
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -2344,7 +2344,7 @@ input[type="search"] {
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
-    line-height: 30px;
+    line-height: 35px;
   }
   input[type="date"].input-sm,
   input[type="time"].input-sm,
@@ -2374,7 +2374,7 @@ input[type="search"] {
 .checkbox {
   position: relative;
   display: block;
-  margin-top: 10px;
+  margin-top: 9px;
   margin-bottom: 10px;
 }
 .radio label,
@@ -2521,7 +2521,7 @@ select[multiple].form-group-lg .form-control {
   position: relative;
 }
 .has-feedback .form-control {
-  padding-right: 37.5px;
+  padding-right: 43.75px;
 }
 .form-control-feedback {
   position: absolute;
@@ -2529,9 +2529,9 @@ select[multiple].form-group-lg .form-control {
   right: 0;
   z-index: 2;
   display: block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
   text-align: center;
   pointer-events: none;
 }
@@ -2967,6 +2967,7 @@ fieldset[disabled] .btn-info.active {
   background-color: #ffffff;
 }
 .btn-warning {
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1), 3px 0 3px 0px rgba(0, 0, 0, 0.1);
   color: #ffffff;
   background-color: #fab216;
   border-color: #f1a705;
@@ -3113,6 +3114,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
+  text-align: left;
 }
 .btn-block + .btn-block {
   margin-top: 5px;
@@ -4014,8 +4016,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
 }
 @media (min-width: 768px) {
   .navbar-form .form-group {
@@ -4100,8 +4102,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
 }
 .navbar-btn.btn-sm {
   margin-top: 11.5px;
@@ -4639,7 +4641,7 @@ a.badge:focus {
   margin-bottom: 0;
   line-height: 1;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #fdb81e;
   border-radius: 0px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
@@ -5709,14 +5711,14 @@ button.close {
 }
 .popover-title {
   margin: 0;
-  padding: 8px 14px;
+  padding: 9px 14px 0px;
   font-size: 15px;
   background-color: #eff0f0;
   border-bottom: 1px solid #e2e4e4;
   border-radius: 5px 5px 0 0;
 }
 .popover-content {
-  padding: 9px 14px;
+  padding: 2px 14px 9px;
 }
 .popover > .arrow,
 .popover > .arrow:after {
