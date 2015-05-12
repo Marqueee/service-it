@@ -231,7 +231,7 @@ button {
   left: 0;
   margin-left: -20px;
   border: 1px solid #cccccc;
-  border-radius: 3px;
+  border-radius: 0px;
   background-color: #fff;
   -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
   -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
@@ -299,11 +299,12 @@ button {
   color: #fff;
 }
 .checkbox-warning input[type="checkbox"]:checked + label::before {
-  background-color: #FAB216;
-  border-color: #FAB216;
+  background-color: rgba(204, 204, 204, 0.3);
+  border-color: rgba(204, 204, 204, 0.3);
+  box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.3);
 }
 .checkbox-warning input[type="checkbox"]:checked + label::after {
-  color: #fff;
+  color:#FAB216; 
 }
 .checkbox-success input[type="checkbox"]:checked + label::before {
   background-color: #5cb85c;
