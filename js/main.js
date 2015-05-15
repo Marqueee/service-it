@@ -4,6 +4,7 @@ $(function () {
 $(function () {
   $('input, textarea').placeholder();
 });
+$("select").selectOrDie();
 $(".rotate").textrotator({
   animation: "flipUp",
   separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
